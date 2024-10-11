@@ -1,0 +1,19 @@
+#main {height: 90vh; height: 90svh; background-color: #fff; background-image: url('../../public/layout/bg_01.jpg'); background-size: cover; background-position: top center;}
+#main .inner {height: 100%;}
+
+.mText {width: 100%; text-align: center; line-height: 1.5; 
+    text-shadow:-1px -1px 0 rgba(0,0,0, 0.05), 1px -1px 0 rgba(0,0,0, 0.05), -1px 1px 0 rgba(0,0,0, 0.05), 1px 1px 0 rgba(0,0,0, 0.05);
+}
+#main h1 {font-size: 30px; font-weight: 550;}
+#main h1 strong {text-decoration: underline; font-style: italic;}
+#main h2 {font-size: 20px; font-weight: 500;}
+
+#main .mLinks {width: 100%;}
+#main .mLinks h1 {font-weight: bold; margin: 0 0 20px;}
+#main .mLinks ul li a{position: relative; width: 100%; display: block; font-size: 20px; line-height: 1.25; color: #fff; font-weight: 500; background-color: rgba(0,0,0, 0.5); border-radius: 1000px; padding: 10px 20px; transition: all ease 0.5s;}
+#main .mLinks ul li a::after{position: absolute; content: '>'; top: 50%; right: 20px; color: #fff; transform: translateY(-50%); transition: all ease 0.5s;}
+#main .mLinks ul li a:hover{color: #111; background-color: rgba(255,255,255, 0.5);}
+#main .mLinks ul li a:hover::after{color: #111;}
+#main .mLinks ul li + li {margin: 10px 0;}
+
+
