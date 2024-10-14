@@ -1,0 +1,32 @@
+.component {min-height: 100vh; min-height: 100svh; color: #fff; background-color: #333; padding: 160px 20px 80px;}
+
+.component_title {font-size: 24px; line-height: 1.5; font-weight: 500; margin: 0 0 40px;}
+
+.component_tip {font-size: 16px; line-height: 1.5; padding: 0 0 0 20px; margin: 0 0 40px;}
+.component_tip span {display: inline-block; font-size: 20px; margin: 0 0 10px -20px;}
+
+.component_text {font-size: 16px; line-height: 1.5; color: #fff; margin: 0 0 40px;}
+
+
+
+
+
+ul > li > ul {padding: 0; margin: 5px 0 0;}
+ul > li > ul > li > ul {padding: 0 0 0 15px; margin: 5px 0 0;}
+
+ul.first {position: relative; counter-reset: ulFirst;}
+ul.first > li {position: relative; font-size: 20px; line-height: 1.5; font-weight: 500; padding: 0 0 0 35px;}
+ul.first > li::before {position: absolute; counter-increment: ulFirst; content: counter(ulFirst)"). "; top: 0; left: 0; font-size: 24px;}
+ul.first > li + li {margin: 5px 0 0;}
+ul.first > li b {font-size: 24px;}
+
+ul.second {position: relative; counter-reset: ulSecond;}
+ul.second > li {position: relative; font-size: 18px; line-height: 1.5; font-weight: 450; padding: 0 0 0 35px;}
+ul.second > li::before {position: absolute; counter-increment: ulSecond; content: counter(ulFirst)"-"counter(ulSecond)"."; top: 0; left: 0; font-size: 18px;}
+ul.second > li + li {margin: 2px 0 0;}
+
+ul.third {position: relative; counter-reset: ulThird;}
+ul.third > li {position: relative; font-size: 16px; line-height: 1.5; font-weight: 450; padding: 0 0 0 50px;}
+ul.third > li::before {position: absolute; counter-increment: ulThird; content: counter(ulFirst)"-"counter(ulSecond)"-"counter(ulThird)"."; top: 0; left: 0; font-size: 16px;}
+ul.third > li + li {margin: 2px 0 0;}
+

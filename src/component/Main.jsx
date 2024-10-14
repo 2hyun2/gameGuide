@@ -1,4 +1,3 @@
-import '../css/Main.css';
 import { Link } from 'react-router-dom';
 
 const Main = () => {

@@ -1,4 +1,4 @@
-#main {height: 90vh; height: 90svh; background-color: #fff; background-image: url('../../public/layout/bg_01.jpg'); background-size: cover; background-position: top center;}
+#main {height: 90vh; height: 90svh; background-color: #fff; background-image: url('../images/bg_01.jpg'); background-size: cover; background-position: top center;}
 #main .inner {height: 100%;}
 
 .mText {width: 100%; text-align: center; line-height: 1.5; 
