@@ -28,5 +28,6 @@ ul.second > li + li {margin: 2px 0 0;}
 ul.third {position: relative; counter-reset: ulThird;}
 ul.third > li {position: relative; font-size: 16px; line-height: 1.5; font-weight: 450; padding: 0 0 0 50px;}
 ul.third > li::before {position: absolute; counter-increment: ulThird; content: counter(ulFirst)"-"counter(ulSecond)"-"counter(ulThird)"."; top: 0; left: 0; font-size: 16px;}
+ul.third > li:nth-of-type(n +10) {padding: 0 0 0 55px;}
 ul.third > li + li {margin: 2px 0 0;}
 
